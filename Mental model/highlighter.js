@@ -8,8 +8,6 @@ function solve(arr){
      arr.filter(x => x === b).length - arr.filter(x => x === a).length || a - b
  );
 }
-
-// .replaceAll('the','<b>the</b>').replaceAll('The','<b><u>The</u></b>')
 let arr= new Set(solve(content1));
 let arr1=[...arr]
 console.log(arr1.slice(0,5))
